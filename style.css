@@ -1,1 +1,114 @@
-some future styles
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+  }
+
+
+  .container {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color: #d38787;
+    transition: color 0.5s;
+  }
+
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+
+  .section-item a {
+    color: #d38787;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+
+  .section-item a:hover {
+    color: #aa4343;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #d38787;
+  }
+
+.header-container {
+    background-color: rgba(253, 247, 192, 0.753);
+}
+
+.footer {
+    display: flex;
+    background-color: rgba(253, 253, 253, 0.753);
+    padding: 40px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: #d38787;
+}
+
+.My-Github {
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.RSS-link {
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.background-code {
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+}
